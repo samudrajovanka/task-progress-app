@@ -1,14 +1,119 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ProfileFragment">
+    android:padding="16dp"
+    tools:context=".fragment.ProfileFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_title_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_title_layout"
+        style="@style/TitleLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/iv_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/ic_baseline_account_circle_24"
+        android:backgroundTint="@color/colorPrimary"
+        android:minWidth="150dp"
+        android:minHeight="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title_profile"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/container_profile"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Profile"/>
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/bg_rect_primary_rad_25"
+        android:padding="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_profile">
 
-</FrameLayout>
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_title_name"
+            style="@style/ProfileTextTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:text="@string/name_title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_name"
+            style="@style/ProfileText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_title_name"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_title_nim"
+            style="@style/ProfileTextTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nim_title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_name"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_nim"
+            style="@style/ProfileText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nim"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_title_nim"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_title_faculty"
+            style="@style/ProfileTextTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/faculty_title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_nim"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_faculty"
+            style="@style/ProfileText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/faculty"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_title_faculty"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_title_majors"
+            style="@style/ProfileTextTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/majors_title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_faculty"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_majors"
+            style="@style/ProfileText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/majors"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_title_majors"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

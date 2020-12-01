@@ -1,5 +1,46 @@
 <resources>
     <string name="app_name">Task Reminder</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name_task">name task</string>
+    <string name="desc_task">description task</string>
+    <string name="percent_task">0%</string>
+
+    <string name="home_title_layout">Your Task</string>
+    <string name="add_title_layout">Add Your Task</string>
+    <string name="profile_title_layout">Your Profile</string>
+
+    <string-array name="task_names">
+        <item>Design UI/UX</item>
+        <item>Create Login</item>
+        <item>Deploy App</item>
+        <item>Design UI/UX</item>
+        <item>Create Login</item>
+        <item>Deploy App</item>
+    </string-array>
+
+    <string-array name="task_descriptions">
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in nunc leo. Vivamus fringilla erat.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in nunc leo. Vivamus fringilla erat.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in nunc leo. Vivamus fringilla erat.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in nunc leo. Vivamus fringilla erat.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in nunc leo. Vivamus fringilla erat.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in nunc leo. Vivamus fringilla erat.</item>
+    </string-array>
+
+    <string-array name="task_percents">
+        <item>12</item>
+        <item>30</item>
+        <item>59</item>
+        <item>12</item>
+        <item>30</item>
+        <item>59</item>
+    </string-array>
+
+    <string name="name_title">Nama</string>
+    <string name="name">Jovanka Samudra</string>
+    <string name="nim_title">NIM</string>
+    <string name="nim">1910511040</string>
+    <string name="faculty_title">Fakultas</string>
+    <string name="faculty">Fakultas Ilmu Komputer</string>
+    <string name="majors_title">Program Studi</string>
+    <string name="majors">Informatika</string>
 </resources>

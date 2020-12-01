@@ -7,4 +7,23 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="TitleLayout">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ProfileTextTitle">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+
+    <style name="ProfileText">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginTop">4dp</item>
+    </style>
+
 </resources>
