@@ -1,4 +1,4 @@
-package com.ksmandroid.taskreminder.model
+package com.ksmandroid.taskprogress.model
 
 data class TaskModel(
     var nameTask: String,

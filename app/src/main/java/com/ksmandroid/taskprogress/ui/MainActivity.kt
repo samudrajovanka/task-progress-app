@@ -1,14 +1,14 @@
-package com.ksmandroid.taskreminder.ui
+package com.ksmandroid.taskprogress.ui
 
 import android.os.Bundle
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import com.ksmandroid.taskreminder.R
-import com.ksmandroid.taskreminder.fragment.AddTaskFragment
-import com.ksmandroid.taskreminder.fragment.HomeFragment
-import com.ksmandroid.taskreminder.fragment.ProfileFragment
+import com.ksmandroid.taskprogress.R
+import com.ksmandroid.taskprogress.fragment.AddTaskFragment
+import com.ksmandroid.taskprogress.fragment.HomeFragment
+import com.ksmandroid.taskprogress.fragment.ProfileFragment
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(), BottomNavigationView.OnNavigationItemSelectedListener {

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Task Reminder</string>
+    <string name="app_name">Task Progress</string>
     <string name="name_task">name task</string>
     <string name="desc_task">description task</string>
     <string name="percent_task">0%</string>

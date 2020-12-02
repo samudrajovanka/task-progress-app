@@ -1,4 +1,4 @@
-package com.ksmandroid.taskreminder.model
+package com.ksmandroid.taskprogress.model
 
 class Tasks {
     companion object {

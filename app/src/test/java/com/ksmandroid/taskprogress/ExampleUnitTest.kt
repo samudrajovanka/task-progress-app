@@ -1,4 +1,4 @@
-package com.ksmandroid.taskreminder
+package com.ksmandroid.taskprogress
 
 import org.junit.Test
 

@@ -1,16 +1,14 @@
-package com.ksmandroid.taskreminder.adapter
+package com.ksmandroid.taskprogress.adapter
 
 import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
-import androidx.core.content.ContextCompat.startActivity
 import androidx.fragment.app.FragmentActivity
 import androidx.recyclerview.widget.RecyclerView
-import com.ksmandroid.taskreminder.R
-import com.ksmandroid.taskreminder.model.TaskModel
-import com.ksmandroid.taskreminder.ui.DetailTaskActivity
+import com.ksmandroid.taskprogress.R
+import com.ksmandroid.taskprogress.model.TaskModel
+import com.ksmandroid.taskprogress.ui.DetailTaskActivity
 import kotlinx.android.synthetic.main.item_cardview_task.view.*
 
 class TaskAdapter(

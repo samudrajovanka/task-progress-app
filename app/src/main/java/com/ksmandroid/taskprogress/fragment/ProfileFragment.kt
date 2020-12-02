@@ -1,11 +1,11 @@
-package com.ksmandroid.taskreminder.fragment
+package com.ksmandroid.taskprogress.fragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.ksmandroid.taskreminder.R
+import com.ksmandroid.taskprogress.R
 
 class ProfileFragment : Fragment() {
 

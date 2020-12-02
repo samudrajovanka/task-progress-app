@@ -1,16 +1,14 @@
-package com.ksmandroid.taskreminder.fragment
+package com.ksmandroid.taskprogress.fragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.ksmandroid.taskreminder.R
-import com.ksmandroid.taskreminder.adapter.TaskAdapter
-import com.ksmandroid.taskreminder.model.Tasks
-import com.ksmandroid.taskreminder.model.TaskModel
+import com.ksmandroid.taskprogress.R
+import com.ksmandroid.taskprogress.adapter.TaskAdapter
+import com.ksmandroid.taskprogress.model.Tasks
 import kotlinx.android.synthetic.main.fragment_home.*
 
 class HomeFragment : Fragment() {

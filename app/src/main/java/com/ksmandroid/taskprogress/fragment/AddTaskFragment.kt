@@ -1,4 +1,4 @@
-package com.ksmandroid.taskreminder.fragment
+package com.ksmandroid.taskprogress.fragment
 
 import android.app.Activity
 import android.content.Context
@@ -11,9 +11,9 @@ import android.view.ViewGroup
 import android.view.inputmethod.InputMethodManager
 import android.widget.Toast
 import androidx.fragment.app.Fragment
-import com.ksmandroid.taskreminder.R
-import com.ksmandroid.taskreminder.model.TaskModel
-import com.ksmandroid.taskreminder.model.Tasks
+import com.ksmandroid.taskprogress.R
+import com.ksmandroid.taskprogress.model.TaskModel
+import com.ksmandroid.taskprogress.model.Tasks
 import kotlinx.android.synthetic.main.fragment_add_task.*
 
 class AddTaskFragment : Fragment(), View.OnClickListener {
@@ -65,6 +65,8 @@ class AddTaskFragment : Fragment(), View.OnClickListener {
                 et_name_task.text?.clear()
                 et_desc_task.text?.clear()
                 hideKeyboard()
+                et_name_task.clearFocus()
+                et_desc_task.clearFocus()
                 Toast.makeText(activity, R.string.alert_success_add, Toast.LENGTH_LONG).show()
             }
         }

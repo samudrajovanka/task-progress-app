@@ -1,11 +1,11 @@
-package com.ksmandroid.taskreminder.ui
+package com.ksmandroid.taskprogress.ui
 
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.ksmandroid.taskreminder.R
-import com.ksmandroid.taskreminder.model.Tasks
+import com.ksmandroid.taskprogress.R
+import com.ksmandroid.taskprogress.model.Tasks
 import kotlinx.android.synthetic.main.activity_detail_task.*
 import kotlinx.android.synthetic.main.toolbar.*
 
