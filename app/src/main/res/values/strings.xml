@@ -5,35 +5,8 @@
     <string name="percent_task">0%</string>
 
     <string name="home_title_layout">Your Task</string>
-    <string name="add_title_layout">Add Your Task</string>
+    <string name="add_task_title_layout">Add Your Task</string>
     <string name="profile_title_layout">Your Profile</string>
-
-    <string-array name="task_names">
-        <item>Design UI/UX</item>
-        <item>Create Login</item>
-        <item>Deploy App</item>
-        <item>Design UI/UX</item>
-        <item>Create Login</item>
-        <item>Deploy App</item>
-    </string-array>
-
-    <string-array name="task_descriptions">
-        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in nunc leo. Vivamus fringilla erat.</item>
-        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in nunc leo. Vivamus fringilla erat.</item>
-        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in nunc leo. Vivamus fringilla erat.</item>
-        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in nunc leo. Vivamus fringilla erat.</item>
-        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in nunc leo. Vivamus fringilla erat.</item>
-        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in nunc leo. Vivamus fringilla erat.</item>
-    </string-array>
-
-    <string-array name="task_percents">
-        <item>12</item>
-        <item>30</item>
-        <item>59</item>
-        <item>12</item>
-        <item>30</item>
-        <item>59</item>
-    </string-array>
 
     <string name="name_title">Nama</string>
     <string name="name">Jovanka Samudra</string>
@@ -43,4 +16,14 @@
     <string name="faculty">Fakultas Ilmu Komputer</string>
     <string name="majors_title">Program Studi</string>
     <string name="majors">Informatika</string>
+    <string name="title_activity_detail_task">DetailTask</string>
+
+    <string name="description_title">Description</string>
+    <string name="detail_task_title">Detail Task</string>
+
+    <string name="title_et_name_task">Name Task</string>
+    <string name="title_et_desc_task">Description Task</string>
+    <string name="add_task">Add Task</string>
+    <string name="alert_success_add">Your Task Added</string>
+    <string name="alert_success_delete">Your Task Deleted</string>
 </resources>

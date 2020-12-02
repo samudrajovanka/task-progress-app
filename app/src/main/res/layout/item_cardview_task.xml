@@ -19,12 +19,9 @@
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/tv_percent_task"
-            android:layout_width="118dp"
+            android:layout_width="120dp"
             android:layout_height="match_parent"
-            android:background="@drawable/bg_rect_blue_light_rad_50"
-            android:gravity="center"
-            android:textColor="@color/colorWhite"
-            android:textSize="50sp"
+            style="@style/PercentTaskTitle"
             tools:text="@string/percent_task"/>
 
         <com.google.android.material.textview.MaterialTextView
